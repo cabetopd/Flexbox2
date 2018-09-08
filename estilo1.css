@@ -1,0 +1,39 @@
+.banner1{
+	background: url("https://iso.500px.com/wp-content/uploads/2018/02/500px_blog_landscape_photography_quest-1500x1000.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: 500px;
+	color: white;
+	font-size: 5rem;
+	font-style: bold;
+	text-align: center;
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+
+.footer{
+	height: 100px;
+	background: #161616;
+	text-align: center;
+	padding-top: 55px;
+}
+
+.rrss{
+	font-size: 30px;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	vertical-align: top;
+	text-align: center;
+
+}
+
+.rrss a{
+	color: white;
+	margin: 10px;
+}
