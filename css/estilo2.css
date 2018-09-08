@@ -1,0 +1,35 @@
+.header{
+	height: 150px;
+	background: #D3D7D4;
+	display: flex;
+    align-items: center;
+    padding: 50px;
+}
+.fa-camera-retro{
+	font-size: 100px;
+	float: left;
+	color: #372E2E;
+}
+.header > div{
+	color: #372E2E;
+	padding: 15px;
+	flex-grow: 1; 
+}
+
+.header>div:last-child{
+	display: flex;
+	justify-content: flex-end;
+
+}
+.header>div:last-child div{
+	margin: 5px;
+	padding: 15px; 
+}
+
+.fa-bars{
+	font-size: 100px;
+	float: right;
+	color: #372E2E;
+	display: none;
+}
+
