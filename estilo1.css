@@ -1,0 +1,41 @@
+
+
+.vessel{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: stretch;
+}
+
+.vessel div{
+	padding: 15px;
+	width: 33.3%;
+	text-align: center;
+}
+
+.vessel div:first-child{
+	background-color: #30BEC3;
+}
+
+.vessel div:nth-child(2){
+	background-color: #76DDE1;
+}
+
+.vessel div:last-child{
+	background-color: #B3E1E3;
+}
+
+@media screen and (max-width: 375px){
+
+	.vessel{
+		display: flex;
+		flex-direction: column-reverse;
+		align-content: center;
+		align-items: stretch;
+	}
+
+	.vessel div{
+		width: 100%;
+	}
+
+}
