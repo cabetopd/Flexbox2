@@ -32,4 +32,127 @@
 	color: #372E2E;
 	display: none;
 }
+.vessel{
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	align-items: stretch;
+}
 
+.vessel div{
+	padding: 15px;
+	width: 33.3%;
+	text-align: center;
+}
+
+.vessel div:first-child{
+	background-color: #30BEC3;
+}
+
+.vessel div:nth-child(2){
+	background-color: #76DDE1;
+}
+
+.vessel div:last-child{
+	background-color: #B3E1E3;
+}
+
+
+.banner1{
+	background: url("https://iso.500px.com/wp-content/uploads/2018/02/500px_blog_landscape_photography_quest-1500x1000.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	height: 500px;
+	color: white;
+	font-size: 5rem;
+	font-style: bold;
+	text-align: center;
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+
+.footer{
+	height: 100px;
+	background: #161616;
+	text-align: center;
+	padding-top: 55px;
+}
+
+.rrss{
+	font-size: 30px;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	justify-content: center;
+	vertical-align: top;
+	text-align: center;
+	margin: -7px;
+
+}
+
+.rrss a{
+	color: white;
+	margin: 10px;
+}
+
+@media screen and (max-width: 400px){
+
+	.vessel{
+		display: flex;
+		flex-direction: column-reverse;
+		align-content: center;
+		align-items: stretch;
+	}
+
+	.vessel div{
+		width: 100%;
+		box-sizing: border-box;
+	}
+
+	.banner1{
+		display: flex;
+		background-position: center;
+		background-size: 100%;
+		height: 200px;
+		color: white;
+		font-size: 3rem;
+		font-style: bold;
+		text-align: center;
+		padding-top: 75px;
+		box-sizing: border-box;
+	}
+
+	.footer{
+		height: 60px;
+		background: #161616;
+		text-align: center;
+		padding-top: 17px;
+	}
+
+	.rrss{
+		font-size: 30px;
+		display: flex;
+		flex-wrap: nowrap;
+		flex-direction: row;
+		justify-content: center;
+		vertical-align: top;
+		text-align: center;
+	}
+	.header{
+		padding:0;
+	}
+	.fa-camera-retro{
+		font-size: 50px;
+	}
+	.fa-bars{
+		display: block;
+		font-size: 50px;
+	}
+	.header>div:last-child div{
+		display: none;
+	}
+}
